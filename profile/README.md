@@ -6,14 +6,14 @@ Quadtrees, R-trees, spatial hash grids, KD-trees - all implementing a shared spa
 
 ## Packages
 
-| Package | Version | Description |
-|---------|---------|-------------|
-| [`@gridworkjs/core`](https://github.com/gridworkjs/core) | [![npm](https://img.shields.io/npm/v/@gridworkjs/core)](https://www.npmjs.com/package/@gridworkjs/core) | Geometry primitives (point, rect, circle) and spatial index protocol |
-| [`@gridworkjs/quadtree`](https://github.com/gridworkjs/quadtree) | [![npm](https://img.shields.io/npm/v/@gridworkjs/quadtree)](https://www.npmjs.com/package/@gridworkjs/quadtree) | Quadtree spatial index for sparse, uneven point and region data |
-| [`@gridworkjs/rtree`](https://github.com/gridworkjs/rtree) | [![npm](https://img.shields.io/npm/v/@gridworkjs/rtree)](https://www.npmjs.com/package/@gridworkjs/rtree) | R-tree spatial index with bulk loading for rectangles and polygons |
-| [`@gridworkjs/hashgrid`](https://github.com/gridworkjs/hashgrid) | [![npm](https://img.shields.io/npm/v/@gridworkjs/hashgrid)](https://www.npmjs.com/package/@gridworkjs/hashgrid) | Spatial hash grid for uniform distributions and fast neighbor lookups |
-| [`@gridworkjs/kd`](https://github.com/gridworkjs/kd) | [![npm](https://img.shields.io/npm/v/@gridworkjs/kd)](https://www.npmjs.com/package/@gridworkjs/kd) | KD-tree for static point sets and nearest-neighbor queries |
-| [`@gridworkjs/query`](https://github.com/gridworkjs/query) | [![npm](https://img.shields.io/npm/v/@gridworkjs/query)](https://www.npmjs.com/package/@gridworkjs/query) | Higher-level queries (radius, KNN, ray, within) against any index |
+| Package | Test | Version | Description |
+|---------|------|---------|-------------|
+| [`@gridworkjs/core`](https://github.com/gridworkjs/core) | [![test](https://github.com/gridworkjs/core/actions/workflows/test.yml/badge.svg)](https://github.com/gridworkjs/core/actions/workflows/test.yml) | [![npm](https://img.shields.io/npm/v/@gridworkjs/core)](https://www.npmjs.com/package/@gridworkjs/core) | Geometry primitives (point, rect, circle) and spatial index protocol |
+| [`@gridworkjs/quadtree`](https://github.com/gridworkjs/quadtree) | [![test](https://github.com/gridworkjs/quadtree/actions/workflows/test.yml/badge.svg)](https://github.com/gridworkjs/quadtree/actions/workflows/test.yml) | [![npm](https://img.shields.io/npm/v/@gridworkjs/quadtree)](https://www.npmjs.com/package/@gridworkjs/quadtree) | Quadtree spatial index for sparse, uneven point and region data |
+| [`@gridworkjs/rtree`](https://github.com/gridworkjs/rtree) | [![test](https://github.com/gridworkjs/rtree/actions/workflows/test.yml/badge.svg)](https://github.com/gridworkjs/rtree/actions/workflows/test.yml) | [![npm](https://img.shields.io/npm/v/@gridworkjs/rtree)](https://www.npmjs.com/package/@gridworkjs/rtree) | R-tree spatial index with bulk loading for rectangles and polygons |
+| [`@gridworkjs/hashgrid`](https://github.com/gridworkjs/hashgrid) | [![test](https://github.com/gridworkjs/hashgrid/actions/workflows/test.yml/badge.svg)](https://github.com/gridworkjs/hashgrid/actions/workflows/test.yml) | [![npm](https://img.shields.io/npm/v/@gridworkjs/hashgrid)](https://www.npmjs.com/package/@gridworkjs/hashgrid) | Spatial hash grid for uniform distributions and fast neighbor lookups |
+| [`@gridworkjs/kd`](https://github.com/gridworkjs/kd) | [![test](https://github.com/gridworkjs/kd/actions/workflows/test.yml/badge.svg)](https://github.com/gridworkjs/kd/actions/workflows/test.yml) | [![npm](https://img.shields.io/npm/v/@gridworkjs/kd)](https://www.npmjs.com/package/@gridworkjs/kd) | KD-tree for static point sets and nearest-neighbor queries |
+| [`@gridworkjs/query`](https://github.com/gridworkjs/query) | [![test](https://github.com/gridworkjs/query/actions/workflows/test.yml/badge.svg)](https://github.com/gridworkjs/query/actions/workflows/test.yml) | [![npm](https://img.shields.io/npm/v/@gridworkjs/query)](https://www.npmjs.com/package/@gridworkjs/query) | Higher-level queries (radius, KNN, ray, within) against any index |
 
 ---
 
